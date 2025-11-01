@@ -16,7 +16,6 @@
       - Display "Congratulations, You guessed the correct number."  
 5. End
 
-
 - **Project Author:** Ali Aliyu  
 - **Project Title:** Number Guessing Game Algorithm
  
