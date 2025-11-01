@@ -42,7 +42,7 @@
 
 - **Project Author:** Ali Aliyu  
 - **Project Title:** Number Guessing Game Algorithm  
-- **Peer Reviewer:** Salome Gabriel  
+- **Peer Reviewer:** Salome 
 
 ---
 
