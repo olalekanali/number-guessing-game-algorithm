@@ -26,19 +26,18 @@
 
 ## Steps to follow
 
-1. Start  
-2. Generate a random number between **1 and 10**, and store it into a variable.  
-3. Let a variable `guess` be set to **0** (or any number not equal to the generated random number).  
-4. Repeat the steps below until the player's guess equals the random number generated:  
-   1. Prompt the user to enter a guess between 1 and 10.  
-   2. Read the user’s input and store it in the `guess` variable.  
-   3. If `guess < random number generated`:  
-      - Display "Your guess is too low, Try again."  
-   4. Else if `guess > random number generated`:  
-      - Display "Your guess is too high, Try again."  
-   5. Else (i.e. `guess = random number`):  
-      - Display "Congratulations, You guessed the correct number."  
-5. End  
+ While the player's guess is not equal to the random number:
+   1. Ask the user to enter a number between 1 and 10.
+   2. Validate input:
+      - If the input is not a number, display "Please enter a valid number."
+      - If the number is outside 1–10, display "Please enter a number between 1 and 10."
+   3. If the guess < random number: 
+      - Display "Too low! Try again."
+   4. Else if the guess > random number:
+      - Display "Too high! Try again."
+   5. Else:
+      - Display "Correct! You guessed the number!"
+
 
 ---
 
